@@ -17,6 +17,10 @@ export class AppComponent {
 
   constructor(){}
 
-  selectCategory(category){}
+  selectCategory(category){
+    /* console.log(category); */
+    this.chosenByCategory = category;
+    
+  }
   
 }
