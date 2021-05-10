@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieDetailsComponent implements OnInit {
 
-   @Input() chosenMovieCategory : {};
+   @Input() chosenMovieCategory ;
 
   constructor() { }
 

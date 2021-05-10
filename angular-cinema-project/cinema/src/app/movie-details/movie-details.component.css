@@ -10,8 +10,8 @@
     margin: 3% auto;
 }
 
-p,
-h3 {
+h3,
+p {
     text-align: center;
     color: rgb(214, 176, 106);
 }
