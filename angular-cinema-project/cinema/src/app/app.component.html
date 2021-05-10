@@ -5,4 +5,7 @@
     <button (click)='selectCategory(categoryCardList[2])' id="drama-button">Drama</button>
     <button (click)='selectCategory(categoryCardList[1])' id="action-button">Action</button>
 </section>
-<app-movie-details></app-movie-details>
+<!-- itt akarjuk megjeleniteni a gyermek componenst -->
+<!-- a beillesztett gyerek komponesben oszzekotom a gyerekValtozot  szuloValtozoval -->
+<!-- gyerekbenMegadottValozoval  = szulobenMegadottValtozoval -->
+<app-movie-details [chosenMovieCategory]="chosenByCategory"></app-movie-details>

@@ -13,13 +13,15 @@ export class AppComponent {
     {title: 'Titanic', year: 1997, category: 'Drama', imgUrl: 'https://images.unsplash.com/photo-1500077423678-25eead48513a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' }
   ];
 
+/* a szulo elem valtozoja ezt akarjuk a gyereknel felhasznalni*/
   chosenByCategory = this.categoryCardList[0];
 
   constructor(){}
 
   selectCategory(category){
-    /* console.log(category); */
-    this.chosenByCategory = category;
+   /*  console.log(this.chosenByCategory); */
+     this.chosenByCategory = category;
+    
     
   }
   
