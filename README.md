@@ -1,4 +1,4 @@
-# Training360 "cinema" képesítő vizsga
+# Training360 "cinema" képesítő vizsga - Teljesen megoldás
 
 - __Feladat beadása űrlapon:__ `https://forms.office.com/r/A4CHveP7yY`
 
