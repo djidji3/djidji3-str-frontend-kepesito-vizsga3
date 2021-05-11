@@ -4,6 +4,7 @@ function changeOuterLinks() {
     links.forEach(elem => {
         if (elem.innerHTML.includes("outer-link")) {
             elem.target = "_blank";
+        /*  elem.setAttribute('target', '_blank'); */
             elem.innerHTML = `<strong>${elem.innerHTML}</strong>`;
         }
     })
@@ -15,8 +16,8 @@ function changeOuterLinks() {
     navElem.style.padding = '16px';
 
 
-
+      
+   
 }
-
 
 export { changeOuterLinks };
